@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'GOODDP__';
+    src: url('../fonts/GOODDP__.TTF') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.font-gooddp {
+    font-family: GOODDP__;
+}
+
+.section-wrapper {
+    border: 2px solid gray;
+    min-height: 100vh;
+    background-color: #141414;
+    overflow-x: hidden;
+}
+
+.bg-blue {
+    background-color: #1718b1;
+}
+
+.border-red {
+    border: 2px solid #c20200;
+}
+
+.text-yellow {
+    color: #ffd741;
+}
+
+.text-red {
+    color: #c20200;
+}
+
+.section-1 {
+    background-image: url('../img/bg/bg-1.png');
+    background-blend-mode: exclusion;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+}
+
